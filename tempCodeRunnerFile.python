@@ -1,0 +1,10 @@
+def codename_generator(name_list):
+    n = len(name_list)
+    final=[]
+    for i in range(n):
+        for j in range(i + 1, n):
+            final.append(name_list[i]+' '+ name_list[j])
+    return final
+name_list = ["Orion", "Barracuda", "Amethyst", "Blade", "Wasp", "Nemesis", "Fury", "Cobra", "Tempest", "Leo", "Scythe"]
+ans = codename_generator(name_list)
+print(ans)
