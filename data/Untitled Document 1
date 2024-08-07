@@ -1,0 +1,1 @@
+shooting = 0.6*skillmoves + attacking finishing + 0.9 * attacking volleys + 0.8*skill dribbling +  0.7 + curle + 0.7 accuracy + 0.7 ball control + 0.9 * power shot power + * 0.9 * mentality positioning + 0.7 * mentality vision + 0.8*mentality penalties + 0.6 * mentalities composure
